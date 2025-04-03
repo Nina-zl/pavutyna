@@ -360,4 +360,4 @@ function startConfetti() {
     }, 5000);
 }
 
-window.onload = startConfetti();
+window.addEventListener("load", startConfetti());
